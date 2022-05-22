@@ -5,7 +5,7 @@
       v-scroll-reveal="{ delay: 40, distance: '30px' }"
     >
       <div class="title">
-        <h3>Featured Works<span class="bg">Portfolio</span></h3>
+        <h3>Trabajos Recientes<span class="bg">Portafolio</span></h3>
       </div>
       <!-- End shane_tm_title -->
       <div class="portfolio_filter" :class="{ opened: active }">

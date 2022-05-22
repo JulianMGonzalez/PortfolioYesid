@@ -24,7 +24,7 @@
       <div class="container">
         <div class="waxon_tm_main_title">
           <div class="title">
-            <h3>Latest News<span class="bg">News</span></h3>
+            <h3>Mis Últimos Años<span class="bg">experiencia</span></h3>
           </div>
         </div>
         <News />
@@ -41,14 +41,10 @@
               class="title"
               v-scroll-reveal="{ delay: 20, distance: '20px' }"
             >
-              <h3>Get in Touch<span class="bg">Contact</span></h3>
+              <h3>Contacto<span class="bg">Contacto</span></h3>
             </div>
           </div>
           <div class="desc" v-scroll-reveal="{ delay: 30, distance: '20px' }">
-            <p>
-              Please fill out the form on this section to contact with me. Or
-              call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday
-            </p>
           </div>
           <div class="wrapper">
             <div class="left" v-scroll-reveal="{ delay: 40 }">

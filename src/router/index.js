@@ -10,7 +10,7 @@ const routes = [
     path: "/",
     name: "Preview",
     meta: {
-      title: "Preview",
+      title: "Yesid Valenzuela | Ingeniero de sistemas",
     },
     component: Preview,
   },
@@ -38,7 +38,7 @@ const router = new VueRouter({
 router.afterEach((to) => {
   if (to.meta && to.meta.title) {
     document.title =
-      to.meta.title + " | Waxon - VueJS Personal Portfolio Template";
+      to.meta.title + " | Portafolio";
   }
 });
 

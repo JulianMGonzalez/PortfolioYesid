@@ -13,7 +13,7 @@
                 <input
                   v-model="formData.name"
                   type="text"
-                  placeholder="Name"
+                  placeholder="Nombre"
                   autocomplete="off"
                 />
                 <span class="inpur-error">{{ errors[0] }}</span>
@@ -43,7 +43,7 @@
               <li>
                 <textarea
                   v-model="formData.message"
-                  placeholder="Message"
+                  placeholder="Mensaje"
                 ></textarea>
                 <span class="inpur-error">{{ errors[0] }}</span>
               </li>
@@ -52,7 +52,7 @@
         </div>
         <div class="tokyo_tm_button">
           <button type="submit" class="ib-button">
-            Send Message
+            Enviar
           </button>
         </div>
       </form>

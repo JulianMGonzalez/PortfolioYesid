@@ -21,38 +21,32 @@
                   >
                     <li class="current">
                       <a href="#home" class="scrollactive-item">
-                        <span class="first">Home</span>
-                        <span class="second">Home</span>
+                        <span class="first">Inicio</span>
+                        <span class="second">Inicio</span>
                       </a>
                     </li>
                     <li>
                       <a href="#about" class="scrollactive-item">
-                        <span class="first">About</span>
-                        <span class="second">About</span>
+                        <span class="first">Sobre mí</span>
+                        <span class="second">Sobre mí</span>
                       </a>
                     </li>
                     <li>
                       <a href="#portfolio" class="scrollactive-item">
-                        <span class="first">Portfolio</span>
-                        <span class="second">Portfolio</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#testimonial" class="scrollactive-item">
-                        <span class="first">Testimonail</span>
-                        <span class="second">Testimonail</span>
+                        <span class="first">Proyectos</span>
+                        <span class="second">Proyectos</span>
                       </a>
                     </li>
                     <li>
                       <a href="#news" class="scrollactive-item">
-                        <span class="first">News</span>
-                        <span class="second">News</span>
+                        <span class="first">Ultimos Años</span>
+                        <span class="second">Ultimos Años</span>
                       </a>
                     </li>
                     <li>
                       <a href="#contact" class="scrollactive-item">
-                        <span class="first">Contact</span>
-                        <span class="second">Contact</span>
+                        <span class="first">Contacto</span>
+                        <span class="second">Contacto</span>
                       </a>
                     </li>
                   </scrollactive>

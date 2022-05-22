@@ -4,30 +4,19 @@
       <div class="copyright_inner">
         <ul>
           <li v-scroll-reveal="{ delay: 20, distance: '20px' }">
-            <span>WAXON &copy; {{ new Date().getFullYear() }}</span>
+            <span>Yesid Valenzuela &copy; {{ new Date().getFullYear() }}</span>
 
-            <span>
-              <a
-                href="https://themeforest.net/user/ib-themes"
-                target="_blank"
-                rel="noreferrer"
-              >
-                ib-themes
-              </a>
-              . All rights reserved.</span
-            >
           </li>
           <!-- End li -->
 
           <li v-scroll-reveal="{ delay: 40, distance: '20px' }">
-            <span>Brook 103,</span>
-            <span>90021 New York, USA</span>
+            <span>Neiva, Huila</span>
           </li>
           <!-- End li -->
 
           <li v-scroll-reveal="{ delay: 60, distance: '20px' }">
-            <span><a href="#">hi@waxon.com</a></span>
-            <span>+77 033 442 55 57</span>
+            <span><a href="#">yesidvh@gmail.com</a></span>
+            <span>+57 3115944439</span>
           </li>
           <!-- End li -->
 

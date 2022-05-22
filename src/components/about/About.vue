@@ -12,7 +12,7 @@
         <!-- End left thumbnail -->
         <div class="right">
           <div class="name" v-scroll-reveal="{ delay: 40 }">
-            <h3>Yesid Valenzuela Hoyos<span class="bg">About</span></h3>
+            <h3>Yesid Valenzuela Hoyos<span class="bg">SobreMí</span></h3>
             <span class="job"
               >Ingeniero de sistemas &amp; Especialista en Marketing</span
             >
@@ -70,7 +70,7 @@
               <div class="my_box">
                 <div class="left">
                   <div class="about_title">
-                    <h3>Photography Skills</h3>
+                    <h3>Skills</h3>
                   </div>
                   <!-- End .abut_title -->
                   <div class="waxon_progress">
