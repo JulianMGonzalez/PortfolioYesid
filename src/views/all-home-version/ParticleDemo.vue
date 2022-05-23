@@ -32,6 +32,8 @@
     </div>
     <!-- End News -->
 
+    <Gallery />
+
     <div class="waxon_tm_contact" id="contact">
       <div class="bg_image"></div>
       <div class="container">
@@ -78,6 +80,7 @@ import News from "../../components/news/News.vue";
 import Contact from "../../components/Contact.vue";
 import Map from "../../components/Map.vue";
 import Footer from "../../components/Footer.vue";
+import Gallery from '../../components/Gallery.vue'
 export default {
   components: {
     Header,
@@ -90,6 +93,7 @@ export default {
     Contact,
     Map,
     Footer,
+    Gallery
   },
 };
 </script>

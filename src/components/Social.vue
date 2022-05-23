@@ -15,7 +15,7 @@ export default {
     return {
       socialList: [
         {
-          link: "https://www.facebook.com/",
+          link: "https://www.facebook.com/Yesid.Valenzuela",
           src: require("../assets/img/svg/social/facebook.svg"),
         },
         {

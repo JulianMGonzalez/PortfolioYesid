@@ -58,7 +58,7 @@ export default {
       socialList: [
         {
           icon: require("../assets/img/svg/social/facebook.svg"),
-          link: "https://www.facebook.com/",
+          link: "https://www.facebook.com/Yesid.Valenzuela",
         },
         {
           icon: require("../assets/img/svg/social/twitter.svg"),

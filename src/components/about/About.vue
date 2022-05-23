@@ -70,7 +70,7 @@
               <div class="my_box">
                 <div class="left">
                   <div class="about_title">
-                    <h3>Skills</h3>
+                    <h3>Habilidades</h3>
                   </div>
                   <!-- End .abut_title -->
                   <div class="waxon_progress">
@@ -107,7 +107,7 @@
                 <!-- End .left -->
                 <div class="right">
                   <div class="about_title">
-                    <h3>Language Skills</h3>
+                    <h3>Idiomas</h3>
                   </div>
                   <div class="waxon_progress">
                     <div class="progress_inner">

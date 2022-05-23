@@ -40,26 +40,22 @@ export default {
         {
           imgSrc: require("../../assets/img/svg/bycicle.svg"),
           title: "MTB",
-          desc: ` Web design is a similar process of creation, with the
-                  intention of the pre outer presenting...`,
+          desc: `Mi experiencia en el mundo de la montaña es una de las más importantes en la vida de una persona.`,
         },
         {
           imgSrc: require("../../assets/img/svg/nature.svg"),
           title: "Naturaleza",
-          desc: ` Web design is a similar process of creation, with the
-                  intention of the pre outer presenting...`,
+          desc: `La naturaleza es una de las cosas más importantes en mi vida.`,
         },
         {
           imgSrc: require("../../assets/img/svg/cooking.svg"),
           title: "Cooking",
-          desc: ` Web design is a similar process of creation, with the
-                  intention of the pre outer presenting...`,
+          desc: `Me gusta mucho la cocina, porque es una de las cosas que me hacen sentir más cómodo.`,
         },
         {
           imgSrc: require("../../assets/img/svg/reader.svg"),
           title: "Lectura",
-          desc: ` Web design is a similar process of creation, with the
-                  intention of the pre outer presenting...`,
+          desc: `Participo en muchas actividades de lectura, porque es una de las cosas que me hacen sentir más cómodo.`,
         },
       ],
       hooperSettings: {

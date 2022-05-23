@@ -33,8 +33,8 @@
                     </li>
                     <li>
                       <a href="#portfolio" class="scrollactive-item">
-                        <span class="first">Proyectos</span>
-                        <span class="second">Proyectos</span>
+                        <span class="first">Logros</span>
+                        <span class="second">Logros</span>
                       </a>
                     </li>
                     <li>
