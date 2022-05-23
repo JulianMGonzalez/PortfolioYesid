@@ -16,7 +16,7 @@
       </div>
       <div class="momento">
         <h3>Amazonia y Consultoría S.A.S</h3>
-        <p>Gerente General</p>
+        <p>Asesor de Marketing & Tecnología</p>
         <div class="descripcion">
           Creacion de Marca, Manejo de la imagen corporativa y consultoría en
           Tecnología.<br /><br /><br />

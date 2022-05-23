@@ -177,7 +177,7 @@ export default {
         {
           src: require("../..//assets/img/portfolio/china.jpeg"),
           thumb: require("../../assets/img/portfolio/chinafondo.jpeg"),
-          portfolioName: "Visita para implementación de proyectos de cámaras a buses y nuevas unidades de Negocios",
+          portfolioName: "Visita a China para implementación de proyectos de cámaras a buses y nuevas unidades de Negocios",
           portfolioType: "Gallery",
         },
         {
@@ -223,7 +223,7 @@ export default {
         {
           src: require("../..//assets/img/portfolio/china.jpeg"),
           thumb: require("../../assets/img/portfolio/chinafondo.jpeg"),
-          portfolioName: "Visita para implementación de proyectos de cámaras a buses y nuevas unidades de Negocios",
+          portfolioName: "Visita a China para implementación de proyectos de cámaras a buses y nuevas unidades de Negocios",
           portfolioType: "Gallery",
         },
         {

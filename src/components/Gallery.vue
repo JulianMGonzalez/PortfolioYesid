@@ -97,4 +97,14 @@ export default {
 .gallery-image:hover {
   transform: scale(1.1);
 }
+.gallery-item span {
+  line-height: normal;
+  font-size: 11px;
+  margin: 0;
+  background: #646464;
+  color: white;
+  font-style: italic;
+  padding: 5px;
+  text-align: center;
+}
 </style>
