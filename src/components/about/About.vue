@@ -37,6 +37,17 @@
         </div>
         <!-- End right content -->
       </div>
+      <div class="grafica" v-scroll-reveal="{ delay: 100 }">
+        <figure class="pie-chart">
+          <h2 class="job">Mis Fortalezas</h2>
+          <figcaption>
+            Creatividad 20<span style="color: #337ac7"></span><br />
+            Trabajo en equipo 30<span style="color: #95bcda"></span><br />
+            Trabajo bajo presión 20<span style="color: #e3e647"></span><br />
+            Analisis de información 30<span style="color: #023f79"></span>
+          </figcaption>
+        </figure>
+      </div>
     </div>
 
     <!-- Start Modalbox -->
@@ -171,6 +182,7 @@
                 </ul>
                 <!-- End ul -->
               </div>
+
               <!-- End .counter -->
               <!-- <div class="partners">
                 <div class="about_title">
@@ -192,8 +204,7 @@
 
 <script>
 export default {
-  components: {
-  },
+  components: {},
   data() {
     return {
       isActive: false,
@@ -212,3 +223,58 @@ export default {
   },
 };
 </script>
+<style scoped>
+.grafica {
+  text-align: center;
+  margin: 0 auto;
+}
+.pie-chart {
+  background: radial-gradient(
+      circle closest-side,
+      white 0,
+      white 48%,
+      transparent 48%,
+      transparent 64%,
+      white 0
+    ),
+    conic-gradient(
+      from 50deg,
+      #337ac7 0,
+      #337ac7 20%,
+      #95bcda 0,
+      #95bcda 50%,
+      #e3e647 0,
+      #e3e647 70%,
+      #023f79 0,
+      #023f79 100%
+    );
+  position: relative;
+  width: 60%;
+  min-height: 350px;
+  margin: 2rem auto 0;
+  outline: 1px solid #ccc;
+}
+.pie-chart figcaption {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  font-size: smaller;
+  text-align: right;
+}
+.pie-chart span:after {
+  display: inline-block;
+  content: "";
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: 0.4em;
+  height: 0.8em;
+  border-radius: 0.2em;
+  background: currentColor;
+}
+@media screen and (max-width: 900px) {
+  .pie-chart {
+    width: 80%;
+    min-height: 450px;
+  }
+}
+</style>

@@ -6,7 +6,7 @@
     <Slider />
     <!-- End Slider -->
 
-    <About />
+    <About/>
     <!-- End About -->
 
     <Service />
@@ -44,8 +44,10 @@
               <h3>Contacto<span class="bg">Contacto</span></h3>
             </div>
           </div>
-          <div class="desc" v-scroll-reveal="{ delay: 30, distance: '20px' }">
-          </div>
+          <div
+            class="desc"
+            v-scroll-reveal="{ delay: 30, distance: '20px' }"
+          ></div>
           <div class="wrapper">
             <div class="left" v-scroll-reveal="{ delay: 40 }">
               <Contact />
@@ -92,4 +94,6 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>
