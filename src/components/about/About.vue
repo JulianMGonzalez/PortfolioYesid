@@ -37,17 +37,6 @@
         </div>
         <!-- End right content -->
       </div>
-      <div class="grafica" v-scroll-reveal="{ delay: 100 }">
-        <figure class="pie-chart">
-          <h2 class="job">Mis Fortalezas</h2>
-          <figcaption>
-            Creatividad 20<span style="color: #337ac7"></span><br />
-            Trabajo en equipo 30<span style="color: #95bcda"></span><br />
-            Trabajo bajo presión 20<span style="color: #e3e647"></span><br />
-            Analisis de información 30<span style="color: #023f79"></span>
-          </figcaption>
-        </figure>
-      </div>
     </div>
 
     <!-- Start Modalbox -->
@@ -86,37 +75,28 @@
                   <!-- End .abut_title -->
                   <div class="waxon_progress">
                     <div class="progress_inner">
-                      <span
-                        ><span class="label">Base de datos </span
-                        ><span class="number">95%</span></span
-                      >
+                      <span><span class="label">Base de datos</span> </span>
                       <div class="background">
                         <div class="bar">
-                          <div class="bar_in" style="width: 95%"></div>
+                          <div class="bar_in" style="width: 100%"></div>
                         </div>
                       </div>
                     </div>
                     <!-- End progress_inner -->
                     <div class="progress_inner">
-                      <span
-                        ><span class="label">Google Analytics</span
-                        ><span class="number">90%</span></span
-                      >
+                      <span><span class="label">Google Analytics</span></span>
                       <div class="background">
                         <div class="bar">
-                          <div class="bar_in" style="width: 90%"></div>
+                          <div class="bar_in" style="width: 100%"></div>
                         </div>
                       </div>
                     </div>
                     <!-- End progress_inner -->
                     <div class="progress_inner">
-                      <span
-                        ><span class="label">Ads</span
-                        ><span class="number">90%</span></span
-                      >
+                      <span><span class="label">Ads</span></span>
                       <div class="background">
                         <div class="bar">
-                          <div class="bar_in" style="width: 90%"></div>
+                          <div class="bar_in" style="width: 100%"></div>
                         </div>
                       </div>
                     </div>
@@ -131,10 +111,7 @@
                   </div>
                   <div class="waxon_progress">
                     <div class="progress_inner">
-                      <span
-                        ><span class="label">Español</span
-                        ><span class="number">100%</span></span
-                      >
+                      <span><span class="label">Español</span></span>
                       <div class="background">
                         <div class="bar">
                           <div class="bar_in" style="width: 100%"></div>
@@ -142,13 +119,10 @@
                       </div>
                     </div>
                     <div class="progress_inner">
-                      <span
-                        ><span class="label">Ingles</span
-                        ><span class="number">95%</span></span
-                      >
+                      <span><span class="label">Ingles</span></span>
                       <div class="background">
                         <div class="bar">
-                          <div class="bar_in" style="width: 95%"></div>
+                          <div class="bar_in" style="width: 100%"></div>
                         </div>
                       </div>
                     </div>
@@ -156,7 +130,22 @@
                 </div>
                 <!-- End .right -->
               </div>
-              <div class="counter">
+              <div class="grafica">
+                <figure class="pie-chart">
+                  <h2 class="job">Mis Fortalezas</h2>
+                  <figcaption>
+                    Creatividad 20<span style="color: #337ac7"></span><br />
+                    Trabajo en equipo 30<span style="color: #95bcda"></span
+                    ><br />
+                    Trabajo bajo presión 20<span style="color: #e3e647"></span
+                    ><br />
+                    Analisis de información 30<span
+                      style="color: #023f79"
+                    ></span>
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- <div class="counter">
                 <div class="about_title">
                   <h3>Fun Facts</h3>
                 </div>
@@ -180,8 +169,8 @@
                     </div>
                   </li>
                 </ul>
-                <!-- End ul -->
-              </div>
+                
+              </div> -->
 
               <!-- End .counter -->
               <!-- <div class="partners">

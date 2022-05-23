@@ -12,24 +12,26 @@
         <!-- End left thumbnail -->
         <div class="right">
           <div class="name">
-            <h3>Bernard Sydney<span class="bg">About</span></h3>
-            <span class="job">Creative Web &amp; App Developer</span>
+            <h3>Yesid Valenzuela Hoyos<span class="bg">SobreMí</span></h3>
+            <span class="job"
+              >Ingeniero de sistemas &amp; Especialista en Marketing</span
+            >
           </div>
           <div class="text">
             <p>
-              My name is Bernard Sydney. I am a Web Developer, and I'm very
-              passionate and dedicated to my work.
+              Amo la vida y con ella todo lo que hago. Tengo hobbies que me
+              permiten vivir la vida plenamente, soy una persona proactiva con
+              habilidad en manejo de grupos, fluidez verbal en español e ingles.
             </p>
             <p>
-              With 20 years experience as a professional Web developer, I have
-              acquired the skills and knowledge necessary to make your project a
-              success. I enjoy every step of the design process, from discussion
-              and collaboration.
+              Utilizo los conocimientos de sistemas y marketing para
+              diagnosticar, construir, evaluar y hacer crecer las organizaciones
+              obteniendo el maximo beneficio.
             </p>
           </div>
           <div class="waxon_tm_button">
             <button class="ib-button" @click="showModal">
-              <span>Learn More</span>
+              <span>Ver Mas</span>
             </button>
           </div>
         </div>
@@ -47,7 +49,12 @@
         v-if="isVisible"
       >
         <div
-          class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-user"
+          class="
+            modal-dialog
+            modal-dialog-centered
+            modal-dialog-scrollable
+            modal-user
+          "
           @click.stop
         >
           <div class="modal-content">
@@ -63,43 +70,33 @@
               <div class="my_box">
                 <div class="left">
                   <div class="about_title">
-                    <h3>Photography Skills</h3>
+                    <h3>Skills</h3>
                   </div>
                   <!-- End .abut_title -->
                   <div class="waxon_progress">
                     <div class="progress_inner">
-                      <span
-                        ><span class="label">Wordpress &amp; PHP</span
-                        ><span class="number">95%</span></span
-                      >
+                      <span><span class="label">Base de datos</span></span>
                       <div class="background">
                         <div class="bar">
-                          <div class="bar_in" style="width:95%"></div>
+                          <div class="bar_in" style="width: 100%"></div>
                         </div>
                       </div>
                     </div>
                     <!-- End progress_inner -->
                     <div class="progress_inner">
-                      <span
-                        ><span class="label">Javascript &amp; React</span
-                        ><span class="number">80%</span></span
-                      >
+                      <span><span class="label">Google Analytics</span></span>
                       <div class="background">
                         <div class="bar">
-                          <div class="bar_in" style="width:80%"></div>
+                          <div class="bar_in" style="width: 100%"></div>
                         </div>
                       </div>
                     </div>
                     <!-- End progress_inner -->
                     <div class="progress_inner">
-                      <span
-                        ><span class="label">HTML &amp; CSS</span
-                        ><span class="number">90%</span
-                        ><span class="number">90%</span></span
-                      >
+                      <span><span class="label">Ads</span> </span>
                       <div class="background">
                         <div class="bar">
-                          <div class="bar_in" style="width:90%"></div>
+                          <div class="bar_in" style="width: 100%"></div>
                         </div>
                       </div>
                     </div>
@@ -115,34 +112,23 @@
                   <div class="waxon_progress">
                     <div class="progress_inner">
                       <span
-                        ><span class="label">English</span
-                        ><span class="number">95%</span></span
+                        ><span class="label">Español</span
+                        ><span class="number"></span></span
                       >
                       <div class="background">
                         <div class="bar">
-                          <div class="bar_in" style="width:95%"></div>
+                          <div class="bar_in" style="width: 100%"></div>
                         </div>
                       </div>
                     </div>
                     <div class="progress_inner">
                       <span
-                        ><span class="label">Japanese</span
-                        ><span class="number">90%</span></span
+                        ><span class="label">Ingles</span
+                        ></span
                       >
                       <div class="background">
                         <div class="bar">
-                          <div class="bar_in" style="width:90%"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="progress_inner">
-                      <span
-                        ><span class="label">Arabian</span
-                        ><span class="number">85%</span></span
-                      >
-                      <div class="background">
-                        <div class="bar">
-                          <div class="bar_in" style="width:85%"></div>
+                          <div class="bar_in" style="width: 100%"></div>
                         </div>
                       </div>
                     </div>
@@ -150,7 +136,7 @@
                 </div>
                 <!-- End .right -->
               </div>
-              <div class="counter">
+              <!-- <div class="counter">
                 <div class="about_title">
                   <h3>Fun Facts</h3>
                 </div>
@@ -174,15 +160,14 @@
                     </div>
                   </li>
                 </ul>
-                <!-- End ul -->
-              </div>
+              </div> -->
               <!-- End .counter -->
-              <div class="partners">
+              <!-- <div class="partners">
                 <div class="about_title">
                   <h3>Our Partners</h3>
                 </div>
                 <Brand />
-              </div>
+              </div> -->
               <!-- End .partner -->
             </div>
             <!-- End .tokyo_tm_modalbox_about -->
@@ -208,11 +193,11 @@ export default {
     };
   },
   methods: {
-    showModal: function() {
+    showModal: function () {
       this.isActive = true;
       this.isVisible = true;
     },
-    closeModal: function() {
+    closeModal: function () {
       this.isActive = false;
       this.isVisible = false;
     },

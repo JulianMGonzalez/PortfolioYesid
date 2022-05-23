@@ -19,21 +19,20 @@ export default {
           src: require("../assets/img/svg/social/facebook.svg"),
         },
         {
-          link: "https://twitter.com/",
+          link: "https://twitter.com/yesidvh",
           src: require("../assets/img/svg/social/twitter.svg"),
         },
         {
-          link: "https://www.instagram.com/",
+          link: "https://www.instagram.com/yesidvh",
           src: require("../assets/img/svg/social/instagram.svg"),
         },
-
         {
-          link: "https://dribbble.com/",
-          src: require("../assets/img/svg/social/dribbble.svg"),
+          src: require("../assets/img/svg/social/youtube.svg"),
+          link: "youtube.com/channel/UC8ipUz9xUTQg4ApmY-yRqJQ/featured",
         },
         {
-          link: "https://www.tiktok.com/",
           src: require("../assets/img/svg/social/tik-tok.svg"),
+          link: "https://www.tiktok.com/@viviendoes",
         },
       ],
     };

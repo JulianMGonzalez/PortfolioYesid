@@ -4,30 +4,19 @@
       <div class="copyright_inner">
         <ul>
           <li>
-            <span>WAXON &copy; {{ new Date().getFullYear() }}</span>
-
-            <span>
-              <a
-                href="https://themeforest.net/user/ib-themes"
-                target="_blank"
-                rel="noreferrer"
-              >
-                ib-themes
-              </a>
-              . All rights reserved.</span
-            >
+            <span>Yesid Valenzuela &copy; {{ new Date().getFullYear() }}</span>
           </li>
           <!-- End li -->
 
           <li>
-            <span>Brook 103,</span>
-            <span>90021 New York, USA</span>
+            <span>Neiva, Huila</span>
+            <span>Carrera 2 # 16A-62</span>
           </li>
           <!-- End li -->
 
           <li>
-            <span><a href="#">hi@waxon.com</a></span>
-            <span>+77 033 442 55 57</span>
+            <span><a href="#">yesidvh@gmail.com</a></span>
+            <span>+57 3115944439</span>
           </li>
           <!-- End li -->
 
@@ -67,23 +56,19 @@ export default {
         },
         {
           icon: require("../assets/img/svg/social/twitter.svg"),
-          link: "https://twitter.com/",
+          link: "https://twitter.com/yesidvh",
         },
         {
           icon: require("../assets/img/svg/social/instagram.svg"),
-          link: "https://www.instagram.com/",
+          link: "https://www.instagram.com/yesidvh",
         },
         {
-          icon: require("../assets/img/svg/social/soundcloud.svg"),
-          link: "https://soundcloud.com/",
+          icon: require("../assets/img/svg/social/linkedin.svg"),
+          link: "https://www.linkedin.com/in/yesid-valenzuela-57b0ba3b/",
         },
         {
           icon: require("../assets/img/svg/social/youtube.svg"),
           link: "https://www.youtube.com/",
-        },
-        {
-          icon: require("../assets/img/svg/social/vk.svg"),
-          link: "https://vk.com/?lang=en",
         },
       ],
     };

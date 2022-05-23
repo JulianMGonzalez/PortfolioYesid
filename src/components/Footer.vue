@@ -6,7 +6,7 @@
           <li v-scroll-reveal="{ delay: 20, distance: '20px' }">
             <div class="logo">
               <router-link to="/">
-                <img src="../assets/img/logo/logo.png" width="50%" alt="partners brand" />
+                <img src="../assets/img/logo/logo2.png" width="20%" alt="partners brand" />
               </router-link>
             </div>
             <span>Yesid Valenzuela &copy; {{ new Date().getFullYear() }}</span>
@@ -69,16 +69,20 @@ export default {
           link: "https://www.instagram.com/yesidvh",
         },
         {
-          icon: require("../assets/img/svg/social/soundcloud.svg"),
-          link: "https://soundcloud.com/",
+          icon: require("../assets/img/svg/social/linkedin.svg"),
+          link: "https://www.linkedin.com/in/yesid-valenzuela-57b0ba3b/",
         },
         {
           icon: require("../assets/img/svg/social/youtube.svg"),
           link: "https://www.youtube.com/",
         },
         {
-          icon: require("../assets/img/svg/social/vk.svg"),
-          link: "https://vk.com/?lang=en",
+          icon: require("../assets/img/svg/social/youtube.svg"),
+          link: "youtube.com/channel/UC8ipUz9xUTQg4ApmY-yRqJQ/featured",
+        },
+        {
+          icon: require("../assets/img/svg/social/tik-tok.svg"),
+          link: "https://www.tiktok.com/@viviendoes",
         },
       ],
     };
