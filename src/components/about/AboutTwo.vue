@@ -29,11 +29,11 @@
               obteniendo el maximo beneficio.
             </p>
           </div>
-          <div class="waxon_tm_button">
+          <!-- <div class="waxon_tm_button">
             <button class="ib-button" @click="showModal">
               <span>Ver Mas</span>
             </button>
-          </div>
+          </div> -->
         </div>
         <!-- End right content -->
       </div>

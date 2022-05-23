@@ -40,17 +40,17 @@ export default {
         {
           imgSrc: require("../../assets/img/svg/bycicle.svg"),
           title: "MTB",
-          desc: `Mi experiencia en el mundo de la montaña es una de las más importantes en la vida de una persona.`,
+          desc: `La cicla me permite descubrir nuevos caminos! Meditar, hacer que todo mi sistema sanguíneo fluya por todas las partes de mi cuerpo! Me mantiene vital y lleno de energía para disfrutar del maravilloso asombro de vivir`,
         },
         {
           imgSrc: require("../../assets/img/svg/nature.svg"),
           title: "Naturaleza",
-          desc: `La naturaleza es una de las cosas más importantes en mi vida.`,
+          desc: `La naturaleza nos conecta con la enegia, la enegia fluye e interconecta todo el universo! Fluye la mente, fluye la vida, fluye los proyectos!`,
         },
         {
           imgSrc: require("../../assets/img/svg/cooking.svg"),
           title: "Cooking",
-          desc: `Me gusta mucho la cocina, porque es una de las cosas que me hacen sentir más cómodo.`,
+          desc: `La cocina es un arte que nos alimenta y nos mantiene sanos, nos llena de energia para vivir la vida plenamente`,
         },
         {
           imgSrc: require("../../assets/img/svg/reader.svg"),

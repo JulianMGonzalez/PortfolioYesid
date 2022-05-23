@@ -29,11 +29,11 @@
               obteniendo el maximo beneficio.
             </p>
           </div>
-          <div class="waxon_tm_button" v-scroll-reveal="{ delay: 100 }">
+          <!-- <div class="waxon_tm_button" v-scroll-reveal="{ delay: 100 }">
             <button class="ib-button" @click="showModal">
               <span>Ver mas</span>
             </button>
-          </div>
+          </div> -->
         </div>
         <!-- End right content -->
       </div>
