@@ -20,7 +20,7 @@
     <!-- <Testimonial /> -->
     <!-- End Testimonail -->
 
-    <div class="waxon_tm_news" id="news">
+    <div class="waxon_tm_news" id="ultimo-años">
       <div class="container">
         <div class="waxon_tm_main_title">
           <div class="title">

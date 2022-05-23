@@ -38,7 +38,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="#news" class="scrollactive-item">
+                      <a href="#ultimo-años" class="scrollactive-item">
                         <span class="first">Ultimos Años</span>
                         <span class="second">Ultimos Años</span>
                       </a>
@@ -112,7 +112,7 @@
                     href="#home"
                     class="scrollactive-item"
                     @click="active = !active"
-                    >Home</a
+                    >Inicio</a
                   >
                 </li>
                 <li>
@@ -120,7 +120,7 @@
                     href="#about"
                     class="scrollactive-item"
                     @click="active = !active"
-                    >About</a
+                    >Sobre mi</a
                   >
                 </li>
                 <li>
@@ -128,15 +128,15 @@
                     href="#portfolio"
                     class="scrollactive-item"
                     @click="active = !active"
-                    >Portfolio</a
+                    >Portafolio</a
                   >
                 </li>
                 <li>
                   <a
-                    href="#news"
+                    href="#ultimos-años"
                     class="scrollactive-item"
                     @click="active = !active"
-                    >News</a
+                    >Últimos años</a
                   >
                 </li>
                 <li>
@@ -144,7 +144,7 @@
                     href="#contact"
                     class="scrollactive-item"
                     @click="active = !active"
-                    >Contact</a
+                    >Contacto</a
                   >
                 </li>
               </scrollactive>

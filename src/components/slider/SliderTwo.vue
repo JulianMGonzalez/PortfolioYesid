@@ -60,13 +60,13 @@
 export default {
   data() {
     return {
-      sliderHero: require("../../assets/img/slider/1.jpg"),
+      sliderHero: require("../../assets/img/intro/marketing.jpg"),
     };
   },
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" >
 #particles-js {
   z-index: 5;
 }

@@ -4,25 +4,29 @@
       <div class="momento">
         <h3>Marketing - EOI Madrid España</h3>
         <p>2008-2009</p>
-        <div class="descripcion"></div>
+        <div class="descripcion"><br><br><br></div>
       </div>
       <div class="momento">
-        <h3>Managagement - New Zealand</h3>
+        <h3>Management - New Zealand</h3>
         <p>2010-2014</p>
-        <div class="descripcion">Innstitute of Management National</div>
+        <div class="descripcion">Innstitute of Management National<br><br><br></div>
       </div>
       <div class="momento">
         <h3>Bambuquero</h3>
         <p>2014-2015</p>
-        <div class="descripcion">Baloncesto Profesional</div>
+        <div class="descripcion">Baloncesto Profesional<br><br><br></div>
       </div>
       <div class="momento">
         <h3>Lider de Tecnologia y Marketing</h3>
         <p>2016-2022</p>
         <div class="descripcion">
-          Creación e Implementacion de proyectos <br />
-          Crecimiento de mercados digitales <br />
-          Administración de Personal<br />
+          Responsable por mantener en perfectas y continuas actualizaciones
+          todos los niveles de información de la Compañía, disponibles para ser
+          analizadas. Aprovechando el manejo de la esta, obteniendo el máximo de
+          beneficio para generar campañas de Marketing que permita el
+          posicionamiento y fortalecimiento de la Marca, haciendo mas fuerte y
+          competitivos dentro del entorno, dando el máximo de beneficio tanto al
+          Cliente y Asociado de la Empresa.
         </div>
       </div>
     </div>

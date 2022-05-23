@@ -196,10 +196,10 @@ export default {
       activetab: 1,
       allItems: [
         {
-          src: "https://vimeo.com/43338103",
-          thumb: require("../../assets/img/portfolio/1.jpg"),
-          portfolioName: "My Song",
-          portfolioType: "Vimeo",
+          src: "https://youtu.be/r_2ke3u1Fvk",
+          thumb: require("../../assets/img/portfolio/pitalito.png"),
+          portfolioName: "Creación del proyecto para la alcaldia de Pitalito, Huila",
+          portfolioType: "Youtube",
         },
         {
           src: require("../../assets/img/portfolio/2.jpg"),

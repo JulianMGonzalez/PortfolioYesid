@@ -4,6 +4,11 @@
       <div class="copyright_inner">
         <ul>
           <li v-scroll-reveal="{ delay: 20, distance: '20px' }">
+            <div class="logo">
+              <router-link to="/">
+                <img src="../assets/img/logo/logo.png" width="50%" alt="partners brand" />
+              </router-link>
+            </div>
             <span>Yesid Valenzuela &copy; {{ new Date().getFullYear() }}</span>
 
           </li>
@@ -11,6 +16,7 @@
 
           <li v-scroll-reveal="{ delay: 40, distance: '20px' }">
             <span>Neiva, Huila</span>
+            <span>Carrera 2 # 16A-62</span>
           </li>
           <!-- End li -->
 
@@ -56,11 +62,11 @@ export default {
         },
         {
           icon: require("../assets/img/svg/social/twitter.svg"),
-          link: "https://twitter.com/",
+          link: "https://twitter.com/yesidvh",
         },
         {
           icon: require("../assets/img/svg/social/instagram.svg"),
-          link: "https://www.instagram.com/",
+          link: "https://www.instagram.com/yesidvh",
         },
         {
           icon: require("../assets/img/svg/social/soundcloud.svg"),

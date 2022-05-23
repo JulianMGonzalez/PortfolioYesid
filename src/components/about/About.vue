@@ -5,7 +5,7 @@
         <div class="left" v-scroll-reveal="{ delay: 40 }">
           <img
             class="thumbnail"
-            src="../../assets/img/about/2.jpg"
+            src="../../assets/img/about/yesid.jpg"
             alt="man with sunglass"
           />
         </div>
