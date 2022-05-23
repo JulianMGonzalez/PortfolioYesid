@@ -133,7 +133,7 @@
                 </li>
                 <li>
                   <a
-                    href="#ultimos-años"
+                    href="#ultimo-años"
                     class="scrollactive-item"
                     @click="active = !active"
                     >Últimos años</a
