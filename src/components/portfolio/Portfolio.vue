@@ -57,7 +57,7 @@
           <li v-for="(image, imageIndex) in allItems" :key="imageIndex">
             <div class="list_inner">
               <div class="image" @click="index = imageIndex">
-                <img src="../../assets/img/thumbs/1-1.jpg" alt="Portfolio" width="100%"/>
+                <img src="../../assets/img/thumbs/1-1.jpg" alt="Portfolio"/>
                 <div
                   class="main"
                   :style="{ backgroundImage: 'url(' + image.thumb + ')' }"
