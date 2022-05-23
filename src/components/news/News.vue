@@ -2,23 +2,8 @@
   <div class="news_inner">
     <div class="linea-tiempo">
       <div class="momento">
-        <h3>Marketing - EOI Madrid España</h3>
-        <p>2008-2009</p>
-        <div class="descripcion"><br><br><br></div>
-      </div>
-      <div class="momento">
-        <h3>Management - New Zealand</h3>
-        <p>2010-2014</p>
-        <div class="descripcion">Innstitute of Management National<br><br><br></div>
-      </div>
-      <div class="momento">
-        <h3>Bambuquero</h3>
-        <p>2014-2015</p>
-        <div class="descripcion">Baloncesto Profesional<br><br><br></div>
-      </div>
-      <div class="momento">
-        <h3>Lider de Tecnologia y Marketing</h3>
-        <p>2016-2022</p>
+        <h3>Cootranshuila Ltda</h3>
+        <p>Líder de Recursos Humanos y Marketing</p>
         <div class="descripcion">
           Responsable por mantener en perfectas y continuas actualizaciones
           todos los niveles de información de la Compañía, disponibles para ser
@@ -27,6 +12,49 @@
           posicionamiento y fortalecimiento de la Marca, haciendo mas fuerte y
           competitivos dentro del entorno, dando el máximo de beneficio tanto al
           Cliente y Asociado de la Empresa.
+        </div>
+      </div>
+      <div class="momento">
+        <h3>Amazonia y Consultoría S.A.S</h3>
+        <p>Gerente General</p>
+        <div class="descripcion">
+          Creacion de Marca, Manejo de la imagen corporativa y consultoría en
+          Tecnología.<br /><br /><br />
+        </div>
+      </div>
+      <div class="momento">
+        <h3>
+          Universidad Corporación unificada nacional de educación superior
+        </h3>
+        <p>Coordinador de Educación Continua</p>
+        <div class="descripcion">
+          Docente de un diploma como opción de Grado para estudiantes de
+          Comunicación Social. El Diplomado fue en Comunity Management de 120
+          Horas. 22 Estudiantes. Curso dictado sábados y medio Día Domingo.
+          <br /><br />
+        </div>
+      </div>
+      <div class="momento">
+        <h3>FOODSTORE</h3>
+        <p>Kitchen Porter Manager</p>
+        <div class="descripcion">
+          Trabajar con el empleador para garantizar la operación exitosa y
+          rentable de su establecimiento. Promover los intereses del empleador ,
+          desarrollar y mantener un ambiente de trabajo donde hay mutua
+          confianza y cooperación entre el empleado y el empleador .
+          Proporcionar puntual y completa información a la Chef Ejecutivo y
+          Gerente General
+        </div>
+      </div>
+      <div class="momento">
+        <h3>Cooptenjo Entidad Cooperativa de Ahorro y Crédito</h3>
+        <p>Coordinador de T.I</p>
+        <div class="descripcion">
+          ✓ Manejo de Proveedores de Comunicaciones<br />
+          ✓ Creación e Implementación Proyecto de VoIP en Asterisk. <br />
+          ✓ Apoyo en General a la Dirección de T.I <br />
+          ✓ Revisión y evaluación de las redes (LAN, WAN) <br />
+          ✓ Administración del Centro de Datos.
         </div>
       </div>
     </div>
@@ -136,5 +164,10 @@ export default {
   border-bottom: 10px solid transparent;
   border-right: 12px solid #3393fe;
   border-left: none;
+}
+@media screen and (max-width: 768px) {
+  .momento h3{
+    font-size: 20px;
+  }
 }
 </style>

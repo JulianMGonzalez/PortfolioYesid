@@ -38,25 +38,25 @@ export default {
     return {
       serviceContent: [
         {
-          imgSrc: require("../../assets/img/svg/code.svg"),
+          imgSrc: require("../../assets/img/svg/bycicle.svg"),
           title: "MTB",
           desc: ` Web design is a similar process of creation, with the
                   intention of the pre outer presenting...`,
         },
         {
-          imgSrc: require("../../assets/img/svg/creativity.svg"),
+          imgSrc: require("../../assets/img/svg/nature.svg"),
           title: "Naturaleza",
           desc: ` Web design is a similar process of creation, with the
                   intention of the pre outer presenting...`,
         },
         {
-          imgSrc: require("../../assets/img/svg/telegram.svg"),
+          imgSrc: require("../../assets/img/svg/cooking.svg"),
           title: "Cooking",
           desc: ` Web design is a similar process of creation, with the
                   intention of the pre outer presenting...`,
         },
         {
-          imgSrc: require("../../assets/img/svg/photoshop.svg"),
+          imgSrc: require("../../assets/img/svg/reader.svg"),
           title: "Lectura",
           desc: ` Web design is a similar process of creation, with the
                   intention of the pre outer presenting...`,

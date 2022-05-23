@@ -11,10 +11,11 @@
             >
               <li>
                 <input
-                  v-model="formData.name"
+                  v-model="email.subject"
                   type="text"
-                  placeholder="Nombre"
+                  placeholder="Asunto"
                   autocomplete="off"
+                  @keyup="onSubmit"
                 />
                 <span class="inpur-error">{{ errors[0] }}</span>
               </li>
@@ -29,8 +30,9 @@
                 <input
                   type="text"
                   rules="required|email"
-                  v-model="formData.email"
+                  v-model="email.cc"
                   placeholder="Email"
+                  @keyup="onSubmit"
                 />
                 <span class="inpur-error">{{ errors[0] }}</span>
               </li>
@@ -42,8 +44,9 @@
             >
               <li>
                 <textarea
-                  v-model="formData.message"
+                  v-model="email.body"
                   placeholder="Mensaje"
+                  @keyup="onSubmit"
                 ></textarea>
                 <span class="inpur-error">{{ errors[0] }}</span>
               </li>
@@ -51,9 +54,7 @@
           </ul>
         </div>
         <div class="tokyo_tm_button">
-          <button type="submit" class="ib-button">
-            Enviar
-          </button>
+          <a :href="outputUrl" class="ib-button">Enviar</a>
         </div>
       </form>
     </ValidationObserver>
@@ -70,16 +71,31 @@ export default {
   },
   data() {
     return {
-      formData: {
-        name: "",
-        email: "",
-        message: "",
+      email: {
+        subject: "",
+        cc: "",
+        body: "",
       },
+      mailHost: "yesidvh@gmail.com",
+      outputUrl: "Type something",
     };
+  },
+  created() {
+    this.onSubmit();
   },
   methods: {
     onSubmit() {
-      console.log(this.formData);
+      this.outputUrl = "mailto:" + this.mailHost;
+      const emailKeys = Object.keys(this.email);
+      const remaining = emailKeys.filter(
+        (key) => this.email[key].trim().length > 0
+      );
+      if (remaining.length > 0) {
+        this.outputUrl += "?";
+      }
+      this.outputUrl += remaining
+        .map((key) => `${key}=${encodeURI(this.email[key].trim())}`)
+        .join("&");
     },
   },
 };

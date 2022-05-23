@@ -74,10 +74,6 @@ export default {
         },
         {
           icon: require("../assets/img/svg/social/youtube.svg"),
-          link: "https://www.youtube.com/",
-        },
-        {
-          icon: require("../assets/img/svg/social/youtube.svg"),
           link: "youtube.com/channel/UC8ipUz9xUTQg4ApmY-yRqJQ/featured",
         },
         {
